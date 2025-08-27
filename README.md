@@ -36,8 +36,6 @@ License
 This project is licensed under the Sibongile Munalilo.
 
 
-
-
 Acknowledgments
 - BuhleBemvelo Day Care for providing the opportunity to develop this website and showcase their excellent services.
 - The development team for their hard work and dedication to creating a high-quality website.
