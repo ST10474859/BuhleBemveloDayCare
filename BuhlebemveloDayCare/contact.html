@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - BuhleBemvelo Day Care</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="BuhleBemvelo logo" class="logo" />
+
+    <h1>Contact / Enroll</h1>
+
+    <nav>
+      <a href="index.html">Home</a> | 
+      <a href="about.html">About</a> | 
+      <a href="programs.html">Programs</a> | 
+      <a href="gallery.html">Gallery</a> | 
+      <a href="contact.html">Contact/Enroll</a>
+    </nav>
+
+    <hr />
+
+    <!-- Contact Info Section -->
+    <div class="section">
+      <p><strong>Address:</strong> 15205 Thandanani Street, Extension 8B, Orange Farm, 1805</p>
+      <p><strong>Email:</strong> <a href="mailto:buhlebemvelodaycare20@gmail.com">buhlebemvelodaycare20@gmail.com</a></p>
+      <p><strong>Phone/WhatsApp:</strong> 076 107 5186 | 066 213 2477</p>
+    </div>
+
+    <!-- Enrollment Form Section -->
+    <form action="mailto:buhlebemvelodaycare20@gmail.com" method="post" enctype="text/plain">
+      <h2>Enrollment Form</h2>
+
+      <label for="parent">Parent/Guardian Name:</label>
+      <input type="text" id="parent" name="parent" required />
+
+      <label for="child">Child’s Name:</label>
+      <input type="text" id="child" name="child" required />
+
+      <label for="age">Child’s Age:</label>
+      <input type="text" id="age" name="age" required />
+
+      <label for="program">Program Interested In:</label>
+      <input type="text" id="program" name="program" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Any additional information or questions"></textarea>
+
+      <input type="submit" value="Send" />
+      <input type="reset" value="Clear" />
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 BuhleBemvelo Day Care | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

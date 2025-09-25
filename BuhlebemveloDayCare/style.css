@@ -1,0 +1,125 @@
+/* Global body style */
+body {
+  background-color: #e6f2ff; /* Light blue */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Container for main content */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 2px solid #b3d1ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo image */
+.logo {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 2px solid #b3d1ff;
+  border-radius: 10px;
+}
+
+/* Section borders */
+.section {
+  border: 1.5px solid #b3d1ff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9fcff;
+  text-align: left;
+}
+
+/* Headings */
+.section h2, h1 {
+  color: #005c99;
+}
+
+/* Lists */
+.section ul {
+  padding-left: 20px;
+}
+.section li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #005c99;
+}
+
+/* Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 2px solid #b3d1ff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+form h2 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+input[type="submit"],
+input[type="reset"] {
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0077aa;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+  padding: 2
